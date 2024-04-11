@@ -56,6 +56,8 @@ def book_menu():
             library.display_all()
         elif user_input == '6':
             return
+        else:
+            print('Invalid input...please try again ┌( ಠ_ಠ)┘!')
             
 def user_menu():
     while True:
@@ -78,7 +80,9 @@ def user_menu():
             library.display_users()
         elif user_input == '4':
             return
-                
+        else:
+            print('Invalid input...please try again ┌( ಠ_ಠ)┘!')  
+            
 def author_menu():
     while True:
         print("""
@@ -102,6 +106,8 @@ def author_menu():
             library.display_authors()
         elif user_input == '4':
             return
-
+        else:
+            print('Invalid input...please try again ┌( ಠ_ಠ)┘!')
+            
 main_menu()
 
