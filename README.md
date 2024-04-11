@@ -19,7 +19,42 @@
 <br />
 <br />
 
-**1. Book Operations:** *Opens the Book Operations menu where users pick which option they would like to choose. Example below:*
+**1. User Operations:** *This is where new users can be added along with their necessary details:*
+```
+    Welcome to the user operations!
+    
+    User Operations:
+    1. Add a new user
+    2. View user details
+    3. Display all users
+    4. Main menu
+```
+Once the user chooses an option they can enter or view details depending on which number they select. Example below:
+```
+    User Operations:
+    1. Add a new user
+        What is the new users name?: Jane Doe
+        What is the new users ID number?: 1234
+    2. View user details
+        Here are the user details!
+        Name: John Doe, ID # 1234 borrowed the following books:
+        Name: Jane Doe, ID # 5678 borrowed the following books:
+    3. Display all users
+        Here are the users in the list!
+        John Doe has an ID of 1234
+        Jane Doe has an ID of 1234
+    4. Main menu
+```
+*Users need to be added first before moving forward to the following Operations:*
+```
+would you like to edit another contact? (y/n):
+"y" will prompt them to enter the contact they would like to edit
+"n" will send the user back to the menu list
+```
+<br />
+<br />
+
+**2. Book Operations:** *Opens the Book Operations menu where users pick which option they would like to choose. Example below:*
 
 ```
     Welcome to the books section!
@@ -32,29 +67,21 @@
     5. Display all books 
     6. Main menu         
 ```
-*Once a user finishes adding a contact to the (Add a new contact) function, it will redirect them to add another contact or they can choose not to which will take them back to the menu list as seen below:*
+*Each choice collects and displays different details pertaining to the book menu. As seen below: *
 
 ```
-would you like to add another? (y/n):
-"y" will prompt them to enter the contacts name
-"n" will send the user back to the menu list
-```
-<br />
-<br />
-
-**2. Edit an existing contact:** *This is where users can edit an existing contact as seen below:*
-```
-Which contact would you like to edit?:
-```
-*Once the user chooses a valid contact to edit they will then be asked what they would like to edit as seen below:*
-```
-What would you like to edit? {name, address, email}:
-```
-When the user is finished they can either edit another contact or choose not to and go back to the menu list:
-```
-would you like to edit another contact? (y/n):
-"y" will prompt them to enter the contact they would like to edit
-"n" will send the user back to the menu list
+    Book Menu:
+    1. Add a new book
+        What is the title of the book you would like to add?: "To Kill a Mockingbird"
+        Who is the author for '"To Kill a Mockingbird"'?: Harper Lee
+        What is the ISBN for '"To Kill a Mockingbird"'?: 123
+        What is the genre for '"To Kill a Mockingbird"'?: Fiction
+        What is the publication date for '"To Kill a Mockingbird"'?: 08/11/1960
+    2. Borrow a book
+    3. Return a book
+    4. Search for a book
+    5. Display all books 
+    6. Main menu   
 ```
 <br />
 <br />
