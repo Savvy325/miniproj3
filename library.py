@@ -96,7 +96,7 @@ class Library():
         if not self.users:
             print("Sorry there are no users in the list!")
         else:
-            print("Here are the users in the list!")
+            print("Here are the user details!")
             for i in self.users:
                 print(f"{i.get_name()} has an ID of {i.get_library_id()}")
 
