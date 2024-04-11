@@ -43,7 +43,7 @@ class Library():
     def search_book(self, title):
         for i in self.books:
             if i.title == title:
-                print(f"Here is the book you searched for:\nTitle: {i.title}\nAuthor: {i.author}\nISBN: {i.isbn}\nGenre: {i.genre}\nPublication Date")
+                print(f"Here is the book you searched for:\nTitle: {i.title}\nAuthor: {i.author}\nISBN: {i.isbn}\nGenre: {i.genre}\nPublication Date: {i.publication_date}")
                 return i
             else:
                 print(f"The book {title} does not exist in the library.")
