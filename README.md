@@ -33,24 +33,20 @@ Once the user chooses an option they can enter or view details depending on whic
 ```
     User Operations:
     1. Add a new user
-        What is the new users name?: Jane Doe
-        What is the new users ID number?: 1234
+        What is the new users name?: John Doe
+        What is the new users ID number?: 123
     2. View user details
         Here are the user details!
-        Name: John Doe, ID # 1234 borrowed the following books:
-        Name: Jane Doe, ID # 5678 borrowed the following books:
+        Name: John Doe, ID # 123 borrowed the following books:
+        Name: Jane Doe, ID # 456 borrowed the following books:
     3. Display all users
         Here are the users in the list!
-        John Doe has an ID of 1234
-        Jane Doe has an ID of 1234
+        John Doe has an ID of 123
+        Jane Doe has an ID of 456
     4. Main menu
+        Takes the user back to main menu
 ```
-*Users need to be added first before moving forward to the following Operations:*
-```
-would you like to edit another contact? (y/n):
-"y" will prompt them to enter the contact they would like to edit
-"n" will send the user back to the menu list
-```
+*Users need to be added first in the User Operations menu before moving forward to the Book and Author Operations:*
 <br />
 <br />
 
@@ -67,17 +63,29 @@ would you like to edit another contact? (y/n):
     5. Display all books 
     6. Main menu         
 ```
-*Each choice collects and displays different details pertaining to the book menu. As seen below: *
+*Each choice collects and displays different details pertaining to the book menu, as seen below: *
 
 ```
     Book Menu:
     1. Add a new book
         What is the title of the book you would like to add?: "To Kill a Mockingbird"
         Who is the author for '"To Kill a Mockingbird"'?: Harper Lee
-        What is the ISBN for '"To Kill a Mockingbird"'?: 123
+        What is the ISBN for '"To Kill a Mockingbird"'?: 1234
         What is the genre for '"To Kill a Mockingbird"'?: Fiction
         What is the publication date for '"To Kill a Mockingbird"'?: 08/11/1960
+
+        You have added 'To Kill a Mockingbird' to the Library!
     2. Borrow a book
+        What book would you like to borrow?: To Kill a Mockingbird
+                Here is the book you searched for:
+                Title: To Kill a Mockingbird
+                Author: Harper Lee
+                ISBN: 1234
+                Genre: Fiction
+                Publication Date: 08/11/1960
+        Who is the user who is checking out To Kill a Mockingbird?: John Doe
+                To Kill a Mockingbird has been checked out by John Doe.
+                To Kill a Mockingbird is not available to check out.
     3. Return a book
     4. Search for a book
     5. Display all books 
