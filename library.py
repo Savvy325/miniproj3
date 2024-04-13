@@ -37,8 +37,8 @@ class Library():
                     print(f"{title} has been checked out by {i.get_name()}.")
                 else:
                     print(f"Sorry {i.get_name()} is not a library user.")
-            else:
-                print(f"The {title} is not available to check out.")
+        else:
+            print(f"The {title} is not available to check out.")
 
     def search_book(self, title):
         for i in self.books:
